@@ -1,2 +1,113 @@
-const rows = Array.from({length:6},(_,i)=>i)
-export default function Hero(){return <section className="hero-section" id="top"><div className="hero-grid"><div className="hero-copy"><h1>One Platform. 7+ Vetted Labs. No<br className="desktop"/> Equipment Cost. No Lab Chaos.</h1><p>Incisive gives restorative and surgical practices a single portal, a single invoice, no-cost digital scanning equipment, and a dedicated clinical team sitting between your practice and every partner lab. All with no subscription required.</p><p>Join 650+ dentists who stopped chasing portals and started focusing on patients.</p><a className="button" href="#book">Book a Demo <span>→</span></a><small>No subscription required. No equipment cost. Minimum lab spend applies.</small></div><div className="dashboard" aria-label="Preview of the Incisive dashboard"><aside><b>INCISIVE</b><span>Dashboard</span><span>Cases</span><span>Invoices</span><span>Messages</span></aside><div className="dash-main"><header>Dashboard <small>Welcome back</small></header><h3>Good morning, Dr. Smith</h3><div className="dash-stats">{['4','1','2','118','$'].map((n,i)=><div key={i}><b>{n}</b><small>{['Active Cases','Needs Review','In Production','Completed','Total Savings'][i]}</small></div>)}</div><div className="dash-tabs">Recent Cases <span>View all cases →</span></div><div className="dash-table">{rows.map(i=><div className="dash-row" key={i}><i/><span>#{1084+i}</span><span>{['Crown','Implant','Bridge','Veneer','Crown','Denture'][i]}</span><span>{['Northstar Dental','Parkside Smiles','Oak Dental Group'][i%3]}</span><span>In progress</span><b>{i%2?'Review':'On time'}</b></div>)}</div></div></div></div></section>}
+
+const rows = Array.from({ length: 6 }, (_, i) => i);
+
+export default function Hero() {
+  return (
+    <section className="hero-section" id="top">
+      <div className="hero-grid">
+        <div className="hero-copy">
+          <h1>
+            One Platform. 7+ Vetted Labs. No
+            <br className="desktop" /> Equipment Cost. No Lab Chaos.
+          </h1>
+
+          <p>
+            Incisive gives restorative and surgical practices a single portal,
+            a single invoice, no-cost digital scanning equipment, and a
+            dedicated clinical team sitting between your practice and every
+            partner lab. All with no subscription required.
+          </p>
+
+          <p>
+            Join 650+ dentists who stopped chasing portals and started
+            focusing on patients.
+          </p>
+
+          <a className="button" href="#book">
+            Book a Demo <span>→</span>
+          </a>
+
+          <small>
+            No subscription required. No equipment cost. Minimum lab spend applies.
+          </small>
+        </div>
+
+        <div
+          className="dashboard"
+          aria-label="Preview of the Incisive dashboard"
+        >
+          <aside>
+            <b>INCISIVE</b>
+            <span>Dashboard</span>
+            <span>Cases</span>
+            <span>Invoices</span>
+            <span>Messages</span>
+          </aside>
+
+          <div className="dash-main">
+            <header>
+              Dashboard <small>Welcome back</small>
+            </header>
+
+            <h3>Good morning, Dr. Smith</h3>
+
+            <div className="dash-stats">
+              {['4', '1', '2', '118', '$'].map((n, i) => (
+                <div key={i}>
+                  <b>{n}</b>
+                  <small>
+                    {
+                      [
+                        'Active Cases',
+                        'Needs Review',
+                        'In Production',
+                        'Completed',
+                        'Total Savings',
+                      ][i]
+                    }
+                  </small>
+                </div>
+              ))}
+            </div>
+
+            <div className="dash-tabs">
+              Recent Cases <span>View all cases →</span>
+            </div>
+
+            <div className="dash-table">
+              {rows.map((i) => (
+                <div className="dash-row" key={i}>
+                  <i />
+                  <span>#{1084 + i}</span>
+                  <span>
+                    {
+                      [
+                        'Crown',
+                        'Implant',
+                        'Bridge',
+                        'Veneer',
+                        'Crown',
+                        'Denture',
+                      ][i]
+                    }
+                  </span>
+                  <span>
+                    {
+                      [
+                        'Northstar Dental',
+                        'Parkside Smiles',
+                        'Oak Dental Group',
+                      ][i % 3]
+                    }
+                  </span>
+                  <span>In progress</span>
+                  <b>{i % 2 ? 'Review' : 'On time'}</b>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

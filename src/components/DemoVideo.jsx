@@ -1,1 +1,20 @@
-export default function DemoVideo(){return <section className="video-section"><p>See how it works, start to finish.</p><a className="video" href="#book" aria-label="Watch the Incisive platform overview"><span className="play">▶</span><strong>INC<span>I</span>SIVE</strong></a></section>}
+
+export default function DemoVideo() {
+  return (
+    <section className="video-section">
+      <p>See how it works, start to finish.</p>
+
+      <a
+        className="video"
+        href="#book"
+        aria-label="Watch the Incisive platform overview"
+      >
+        <span className="play">▶</span>
+
+        <strong>
+          INC<span>I</span>SIVE
+        </strong>
+      </a>
+    </section>
+  );
+}

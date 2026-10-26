@@ -1,2 +1,47 @@
-const steps=[['Book a 30-Minute Demo','Talk to a clinical advisor who has seen this transition done hundreds of times. We review your current lab spend, case mix, and equipment situation, and show you exactly which equipment and labs make sense for your practice.'],['Equipment Is Placed at No Cost','We handle placement, installation, calibration, and training. If your practice already owns a scanner, you can start running cases immediately without deploying new equipment. Your existing workflow continues uninterrupted.'],['Your Cases Route Through One Portal','Submit cases digitally or via PV’s Impression. Both count. Our clinical team is available to review cases before they go to the lab, and you track every case in real time through one portal instead of five.'],['One Invoice. One Team. Zero Chaos','You receive a single consolidated invoice each month regardless of how many partner labs touched your cases. Our clinical support team handles escalations, manages lab communication, and contacts you when something needs your attention, not the other way around.']]
-export default function Steps(){return <section className="steps"><h2>From First Conversation to First Case. Here's Exactly<br/>How Incisive Works.</h2><p>No complicated onboarding. No rip-and-replace of your existing workflow. Your practice keeps running while we build the infrastructure around it.</p><div className="step-grid">{steps.map(([h,t],i)=><article key={h}><span>Step {i+1}:</span><h3>{h}</h3><p>{t}</p></article>)}</div></section>}
+
+const steps = [
+  [
+    'Book a 30-Minute Demo',
+    'Talk to a clinical advisor who has seen this transition done hundreds of times. We review your current lab spend, case mix, and equipment situation, and show you exactly which equipment and labs make sense for your practice.',
+  ],
+  [
+    'Equipment Is Placed at No Cost',
+    'We handle placement, installation, calibration, and training. If your practice already owns a scanner, you can start running cases immediately without deploying new equipment. Your existing workflow continues uninterrupted.',
+  ],
+  [
+    'Your Cases Route Through One Portal',
+    'Submit cases digitally or via PV’s Impression. Both count. Our clinical team is available to review cases before they go to the lab, and you track every case in real time through one portal instead of five.',
+  ],
+  [
+    'One Invoice. One Team. Zero Chaos',
+    'You receive a single consolidated invoice each month regardless of how many partner labs touched your cases. Our clinical support team handles escalations, manages lab communication, and contacts you when something needs your attention, not the other way around.',
+  ],
+];
+
+export default function Steps() {
+  return (
+    <section className="steps">
+      <h2>
+        From First Conversation to First Case. Here's Exactly
+        <br />
+        How Incisive Works.
+      </h2>
+
+      <p>
+        No complicated onboarding. No rip-and-replace of your existing
+        workflow. Your practice keeps running while we build the infrastructure
+        around it.
+      </p>
+
+      <div className="step-grid">
+        {steps.map(([h, t], i) => (
+          <article key={h}>
+            <span>Step {i + 1}:</span>
+            <h3>{h}</h3>
+            <p>{t}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
