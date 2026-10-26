@@ -1,5 +1,8 @@
 
 export default function Footer() {
+  function Logo({ light = false }) {
+       return <img className={`brand-logo${light ? ' brand-logo--light' : ''}`} src="/images/incisive-logo.png" alt="Incisive" />
+  }
   return (
     <footer id="book">
       <h2>Join the restorative ecosystem.</h2>
@@ -17,7 +20,7 @@ export default function Footer() {
       </a>
 
       <div className="footer-logo">
-        INC<span>I</span>SIVE
+         <Logo />
       </div>
 
       <p>
