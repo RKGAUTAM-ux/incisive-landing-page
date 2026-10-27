@@ -1,4 +1,3 @@
-import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Metrics from './components/Metrics'
@@ -11,5 +10,5 @@ import Comparison from './components/Comparison'
 import Footer from './components/Footer'
 
 export default function App() {
-  return <><Header/><main><Hero/><Metrics/><Problem/><Infrastructure/><DemoVideo/><Steps/><Benefits/><Comparison/></main><Footer/></>
+  return <div className="min-h-screen bg-white font-sans text-[#23394a]"><Header/><main><Hero/><Metrics/><Problem/><Infrastructure/><DemoVideo/><Steps/><Benefits/><Comparison/></main><Footer/></div>
 }

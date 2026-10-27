@@ -34,26 +34,26 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <section className="benefits">
-      <h2>
+    <section className="px-[5%] py-11 text-center md:px-[max(4%,calc((100%-1120px)/2))] md:py-[76px]">
+      <h2 className="mb-2 text-xl leading-snug font-normal text-[#17344b] md:text-[26px] [font-family:'Libre_Baskerville',Georgia,serif]">
         7+ Labs. Every Case Type. Every One Accepted
         <br />
         for a Reason.
       </h2>
 
-      <p className="intro">
+      <p className="mx-auto mb-8 max-w-[1000px] text-[11px] leading-relaxed text-[#606b72] md:text-[13px]">
         Most practices work with whoever they can find and trust whatever they get.
         Incisive spent years interviewing hundreds of US-based labs to find the ones
         that meet clinical and operational standards rigorous enough to stake a
         95%+ retention rate on.
       </p>
 
-      <div className="benefit-grid">
+      <div className="grid grid-cols-2 gap-2.5 text-left md:grid-cols-3 md:gap-5">
         {benefits.map(([icon, title, copy]) => (
-          <article key={title}>
-            <span>{icon}</span>
-            <h3>{title}</h3>
-            <p>{copy}</p>
+          <article className="min-h-[185px] rounded-[11px] border border-[#e3e9ed] p-3 shadow-sm md:min-h-[190px] md:p-6">
+            <span className="grid h-[34px] w-[34px] place-items-center rounded-lg bg-[#e8f3fa] text-base text-[#4383a7] md:h-[42px] md:w-[42px] md:text-xl">{icon}</span>
+            <h3 className="mb-1 mt-3 text-xs font-bold text-[#284357] md:text-[15px]">{title}</h3>
+            <p className="m-0 text-[10px] leading-relaxed text-[#53616a] md:text-xs">{copy}</p>
           </article>
         ))}
       </div>

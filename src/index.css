@@ -1,1 +1,30 @@
-*{box-sizing:border-box}html{min-width:320px}body{min-width:320px}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible{outline:3px solid #f4b544;outline-offset:3px}::selection{background:#b8d9e9;color:#102c41}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', Arial, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { min-width: 320px; margin: 0; font-family: 'DM Sans', Arial, sans-serif; font-size: 14px; }
+a:focus-visible { outline: 3px solid #f4b544; outline-offset: 3px; }
+
+/* Bespoke artwork and responsive image treatment for the product preview. */
+.hero-panel {
+  background-image: linear-gradient(rgba(115,160,184,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(115,160,184,.055) 1px, transparent 1px), linear-gradient(115deg,#eef6f9,#dceaf1);
+  background-size: 42px 42px, 42px 42px, auto;
+}
+.dashboard-frame { width: min(790px, 100%); margin: 38px auto 0; overflow: hidden; border-radius: 8px 8px 0 0; box-shadow: 0 10px 40px #31546a3a; }
+.dashboard-frame img { display:block; width:100%; height:auto; }
+.video-panel { background: radial-gradient(ellipse at 80% 15%,#243e50 0%,#121a20 60%,#0c1318 100%); }
+.video-panel strong { letter-spacing: 6px; }
+.video-panel strong span { color:#5ba3c8; }
+.comparison tbody td:first-child { min-width: 140px; color:#284357; font-family:'Libre Baskerville',Georgia,serif; font-weight:700; }
+@media (min-width:768px) {
+  .video-panel strong { letter-spacing:13px; }
+  .comparison tbody td:first-child { min-width:220px; }
+}
+@media (max-width:640px) {
+  .hero-panel { min-height:0; }
+  .dashboard-frame { width:110%; margin-left:-5%; }
+}

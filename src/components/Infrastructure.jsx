@@ -20,26 +20,26 @@ const cards = [
 
 export default function Infrastructure() {
   return (
-    <section className="infrastructure">
-      <h2>
+    <section className="px-[5%] py-11 text-center md:px-[max(4%,calc((100%-1120px)/2))] md:py-[76px]">
+      <h2 className="mb-4 text-xl leading-snug font-normal text-[#17344b] md:text-[26px] [font-family:'Libre_Baskerville',Georgia,serif]">
         Incisive Is the Infrastructure Your Lab Relationships
         <br />
         Were Never Built to Be.
       </h2>
 
-      <p>
+      <p className="mx-auto mb-8 max-w-[900px] text-[11px] leading-relaxed text-[#606b72] md:text-[13px]">
         One platform replaces the fragmented stack of portals, reps, invoices,
         and equipment costs your practice has been managing separately. Here’s
         what comes with every Incisive partnership, with no subscription
         required.
       </p>
 
-      <div className="infra-grid">
+      <div className="grid grid-cols-2 gap-x-2.5 gap-y-6 text-left md:grid-cols-4 md:gap-[18px]">
         {cards.map(([h, t], i) => (
-          <article key={h}>
-            <b className="number">{i + 1}</b>
-            <h3>{h}</h3>
-            <p>{t}</p>
+          <article className="relative min-h-[250px] rounded-[14px] border border-[#91a9b7] px-3 pb-4 pt-10 md:min-h-[315px] md:px-[22px] md:pb-[22px] md:pt-[50px]" key={h}>
+            <b className="absolute -top-4 left-1/2 grid h-[34px] w-[34px] -translate-x-1/2 place-items-center rounded-full border-4 border-white bg-[#3e80a6] text-lg leading-none text-white md:h-10 md:w-10 md:text-[22px] [font-family:Georgia,serif]">{i + 1}</b>
+            <h3 className="text-xs font-bold text-[#284357] md:text-[15px]">{h}</h3>
+            <p className="text-[10px] leading-relaxed text-[#53616a] md:text-xs">{t}</p>
           </article>
         ))}
       </div>

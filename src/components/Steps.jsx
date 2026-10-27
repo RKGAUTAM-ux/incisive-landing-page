@@ -20,25 +20,25 @@ const steps = [
 
 export default function Steps() {
   return (
-    <section className="steps">
-      <h2>
+    <section className="px-[5%] py-11 text-center md:px-[max(4%,calc((100%-1120px)/2))] md:py-[76px]">
+      <h2 className="mb-4 text-xl leading-snug font-normal text-[#17344b] md:text-[26px] [font-family:'Libre_Baskerville',Georgia,serif]">
         From First Conversation to First Case. Here's Exactly
         <br />
         How Incisive Works.
       </h2>
 
-      <p>
+      <p className="mx-auto mb-8 max-w-[900px] text-[11px] leading-relaxed text-[#606b72] md:text-[13px]">
         No complicated onboarding. No rip-and-replace of your existing
         workflow. Your practice keeps running while we build the infrastructure
         around it.
       </p>
 
-      <div className="step-grid">
+      <div className="grid grid-cols-1 gap-3 text-left md:grid-cols-2 md:gap-6">
         {steps.map(([h, t], i) => (
-          <article key={h}>
-            <span>Step {i + 1}:</span>
-            <h3>{h}</h3>
-            <p>{t}</p>
+          <article className="rounded-xl bg-[#3d80a5] p-5 text-white md:min-h-[225px] md:p-6">
+            <span className="bg-white px-2.5 py-1 text-sm text-[#4080a4] md:text-lg [font-family:'Libre_Baskerville',Georgia,serif]">Step {i + 1}:</span>
+            <h3 className="mb-2 mt-5 text-[15px] font-normal md:text-[17px] [font-family:'Libre_Baskerville',Georgia,serif]">{h}</h3>
+            <p className="text-[11px] leading-relaxed text-[#e6f0f5] md:text-xs">{t}</p>
           </article>
         ))}
       </div>
