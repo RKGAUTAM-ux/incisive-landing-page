@@ -1,9 +1,9 @@
 
 export default function Header() {
-    function Logo() { return <img className="h-auto w-28" src="/images/incisive-logo.png" alt="Incisive" /> }
+    function Logo() { return <img className="h-auto w-[110px] sm:w-[200px]" src="/images/incisive-logo.png" alt="Incisive" /> }
   return (
-    <header className="flex h-16 items-center justify-center md:h-20">
-      <a className="transition-opacity hover:opacity-75" href="#top" aria-label="Incisive home">
+    <header className="flex  items-center sm:justify-center ">
+      <a className="transition-opacity hover:opacity-75 py-[8px] sm:py-[14px] px-[16px]" href="#top" aria-label="Incisive home">
         <Logo />
       </a>
     </header>

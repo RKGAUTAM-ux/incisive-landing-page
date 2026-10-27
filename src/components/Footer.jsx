@@ -1,35 +1,41 @@
 
 export default function Footer() {
   function Logo() {
-    return <img className="h-auto w-28" src="/images/incisive-logo.png" alt="Incisive" />
+    return <img className="h-auto w-[104px] md:w-[198px]" src="/images/Incisive-logo-footer.png" alt="Incisive" />
   }
   return (
-    <footer className="bg-[#112e43] px-[7%] py-12 text-center text-[#dbe6ed] md:px-[max(8%,calc((100%-950px)/2))] md:py-[70px]" id="book">
-      <h2 className="mb-5 text-xl font-normal text-white md:text-[26px] [font-family:'Libre_Baskerville',Georgia,serif]">Join the restorative ecosystem.</h2>
+    <footer className="bg-[#112B40] text-[#ffffff] py-[48px] md:py-[72px] text-center" id="book">
 
-      <p className="text-[11px] leading-relaxed md:text-[13px]">
+       <div className="max-w-[1450px] mx-auto  px-[24px]">
+           <h2 className="text-white mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal [font-family:'Libre_Baskerville',Georgia,serif]">Join the restorative ecosystem.</h2>
+
+      <p className="mb-[40px] md:mb-[58px]  text-[14px] md:text-[22px] leading-[1.3]">
         Join 650+ dentists who traded lab chaos for one partner, one portal,
         and a team that answers the phone.
       </p>
 
       <a
-        className="my-5 inline-flex items-center justify-center gap-4 rounded-full bg-[#3d83a8] px-8 py-2.5 text-sm text-white transition hover:-translate-y-0.5 hover:bg-[#286887] md:mb-9 md:px-9 md:py-3 md:text-base [font-family:'Libre_Baskerville',Georgia,serif]"
+        className="inline-flex items-center justify-center gap-[8px] rounded-full bg-[#3d83a8] px-[32px] py-[8px] mb-[60px] text-[24px] md:text-[32px] w-full md:w-[355px] text-white transition hover:-translate-y-0.5 hover:bg-[#286887]  [font-family:'Libre_Baskerville',Georgia,serif]"
         href="mailto:hello@incisive.com?subject=Book%20a%20Demo"
       >
         Book a Demo <span>→</span>
       </a>
 
-      <div className="mx-auto mb-5 table bg-white px-2 py-1">
+      <div className="mx-auto mb-[48px] table bg-white px-2 py-1">
          <Logo />
       </div>
 
-      <p>
+      <p className="mb-[40px] md:mb-[58px]  text-[14px] md:text-[22px] leading-[1.3]">
         Multiple labs. One portal. One support team. Built so general practices
         can deliver restorative outcomes at scale, without sacrificing the lab
         relationships that drive quality.
       </p>
 
-      <small className="mt-6 block text-[#b4c4cd]">The complete workflow, without going it alone.</small>
+      <small className="mb-[40px] md:mb-[58px]  text-[12px] md:text-[20px] leading-[1.3]">The complete workflow, without going it alone.</small>
+
+       </div>
+
+
     </footer>
   );
 }

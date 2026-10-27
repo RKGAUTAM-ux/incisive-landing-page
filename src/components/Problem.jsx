@@ -10,14 +10,13 @@ const pain = [
 
 export default function Problem() {
   return (
-    <section className="bg-[#112e43] px-[5%] py-11 text-center text-[#eaf0f4] md:px-[max(6%,calc((100%-1050px)/2))] md:py-[70px]">
-      <h2 className="mb-5 text-xl leading-snug font-normal text-white md:text-[26px] [font-family:'Libre_Baskerville',Georgia,serif]">
-        Your Lab Relationships Were Built Over Years.
-        <br />
-        Consolidation Erased Them in Months.
+    <section className="bg-[#112B40]  py-[48px] md:py-[72px] text-center text-[#ffffff]">
+      <div className="max-w-[1450px] mx-auto  px-[24px]">
+       <h2 className="max-w-[950px] mx-auto text-white mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal [font-family:'Libre_Baskerville',Georgia,serif]">
+        Your Lab Relationships Were Built Over Years. Consolidation Erased Them in Months.
       </h2>
 
-      <p className="mx-auto text-[11px] leading-relaxed text-[#d1dce3] md:text-[13px]">
+      <p className="mb-[40px] md:mb-[48px]  text-[14px] md:text-[22px] leading-[1.3]">
         The independent dental lab you practice depended on for a decade has
         been acquired, restructured, or quietly retired. The ceramicist whose
         work your prep is known for has been replaced by a production floor
@@ -26,20 +25,21 @@ export default function Problem() {
         work only got more complex.
       </p>
 
-      <div className="my-5 grid grid-cols-1 gap-2.5 md:my-8 md:grid-cols-2 md:gap-[18px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]  md:gap-[30px] lg:gap-x-[64px] mb-[30px] md:mb-[48px]">
         {pain.map((x, i) => (
-          <div className="flex gap-2.5 rounded-[10px] border border-[#537084] p-3 text-left text-[11px] leading-relaxed md:p-[18px] md:text-[13px]" key={x}>
-            <b className="text-[#6da4c0]">{i % 3 === 0 ? '✦' : i % 3 === 1 ? '✓' : '↗'}</b>
+          <div className="flex gap-2.5 rounded-[10px] border border-[#fff] p-[16px] md:p-[24px]  text-left  leading-[1.3] text-[12px] md:text-[20px]" key={x}>
+            <b className="text-[#fff] ">{i % 3 === 0 ? '•' : i % 3 === 1 ? '•' : '•'}</b>
             {x}
           </div>
         ))}
       </div>
 
-      <p className="mt-6 text-[11px] md:mt-8 md:text-[13px]">
+      <p className="text-[14px] md:text-[22px] leading-[1.3] italic">
         These aren't edge cases. They're the operational baseline for most
         practices spending $2,000+ per month in lab fees. Incisive was built to
         replace that baseline entirely.
       </p>
+      </div>
     </section>
   );
 }

@@ -20,28 +20,32 @@ const steps = [
 
 export default function Steps() {
   return (
-    <section className="px-[5%] py-11 text-center md:px-[max(4%,calc((100%-1120px)/2))] md:py-[76px]">
-      <h2 className="mb-4 text-xl leading-snug font-normal text-[#17344b] md:text-[26px] [font-family:'Libre_Baskerville',Georgia,serif]">
-        From First Conversation to First Case. Here's Exactly
-        <br />
-        How Incisive Works.
-      </h2>
+    <section className="py-[35px] md:py-[50px] text-center">
 
-      <p className="mx-auto mb-8 max-w-[900px] text-[11px] leading-relaxed text-[#606b72] md:text-[13px]">
-        No complicated onboarding. No rip-and-replace of your existing
-        workflow. Your practice keeps running while we build the infrastructure
-        around it.
-      </p>
+      <div className="max-w-[1450px] mx-auto  px-[24px]">
+        <h2 className="max-w-[1080px] mx-auto text-[#112B40] mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal [font-family:'Libre_Baskerville',Georgia,serif]">
+          From First Conversation to First Case. Here's Exactly
+          How Incisive Works.
+        </h2>
 
-      <div className="grid grid-cols-1 gap-3 text-left md:grid-cols-2 md:gap-6">
-        {steps.map(([h, t], i) => (
-          <article className="rounded-xl bg-[#3d80a5] p-5 text-white md:min-h-[225px] md:p-6">
-            <span className="bg-white px-2.5 py-1 text-sm text-[#4080a4] md:text-lg [font-family:'Libre_Baskerville',Georgia,serif]">Step {i + 1}:</span>
-            <h3 className="mb-2 mt-5 text-[15px] font-normal md:text-[17px] [font-family:'Libre_Baskerville',Georgia,serif]">{h}</h3>
-            <p className="text-[11px] leading-relaxed text-[#e6f0f5] md:text-xs">{t}</p>
-          </article>
-        ))}
+        <p className="max-w-[1080px] mx-auto text-[#3A4249] mb-[40px] md:mb-[48px]  text-[14px] md:text-[22px] leading-[1.3]">
+          No complicated onboarding. No rip-and-replace of your existing
+          workflow. Your practice keeps running while we build the infrastructure
+          around it.
+        </p>
+
+        <div className="grid grid-cols-1 gap-[20px] text-left md:grid-cols-2 md:gap-[32px] lg:gap-x-[80px] lg:gap-y-[64px]">
+          {steps.map(([h, t], i) => (
+            <article className="rounded-[10px] md:rounded-[15px] bg-[#3A78A1] p-[24px] text-white  md:p-[32px]">
+              <span className="rounded-[10px] bg-[#F6FBFE] px-[14px] md:px-[20px] py-[4px] text-[24px] text-[#4080a4] md:text-[36px] [font-family:'Libre_Baskerville',Georgia,serif]">Step {i + 1}:</span>
+              <h3 className="mb-[16px] md:mb-[22px] mt-[16px] md:mt-[24px] text-[20px] font-normal md:text-[30px] leading-[1.3] [font-family:'Libre_Baskerville',Georgia,serif]">{h}</h3>
+              <p className="text-[12px] leading-[1.3] text-[#e6f0f5] md:text-[20px]">{t}</p>
+            </article>
+          ))}
+        </div>
+
       </div>
+
     </section>
   );
 }

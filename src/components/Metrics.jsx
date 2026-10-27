@@ -20,13 +20,20 @@ const items = [
 
 export default function Metrics() {
   return (
-    <section className="grid grid-cols-2 gap-3 bg-[#3e80a6] px-[4%] py-4 text-white md:grid-cols-4 md:gap-8 md:px-[max(4%,calc((100%-1180px)/2))]">
+    <section className="bg-[#3e80a6]  py-[16px] mb-[40px]  md:mb-[64px]">
+      <div className="max-w-[1450px] mx-auto px-[24px] grid grid-cols-2 gap-[24px] text-white lg:grid-cols-4 lg:gap-[40px] ">
       {items.map(([n, t]) => (
-        <div className="flex items-center gap-2 text-[10px] leading-tight whitespace-pre-line md:gap-3 md:text-[13px]" key={n}>
-          <b className="grid h-11 w-11 shrink-0 place-items-center rounded-full border-[3px] border-[#173c53] text-xs md:h-[60px] md:w-[60px] md:text-[17px]">{n}</b>
-          <span>{t}</span>
+        <div className="flex items-center gap-[8px]  md:gap-[16px]" key={n}>
+
+          <div className="flex h-[50px] w-[50px]  md:h-[90px] md:w-[90px] justify-center items-center shrink-0 relative">
+<b className="text-[14px] md:text-[24px] [font-family:'Libre_Baskerville',Georgia,serif]">{n}</b>
+<img className="absolute top-0 left-0 h-full- w-full" src="/images/stat-round-bg.svg" alt="" />
+          </div>
+
+          <p className="text-[12px] md:text-[18px] xl:text-[24px] leading-[1.2]">{t}</p>
         </div>
       ))}
+      </div>
     </section>
   );
 }
