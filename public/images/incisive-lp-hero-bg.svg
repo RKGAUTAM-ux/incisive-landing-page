@@ -1,0 +1,57 @@
+<svg width="1457" height="954" viewBox="0 0 1457 954" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2003_47)">
+<rect width="1457" height="954" fill="#F6FBFE"/>
+<path d="M729.5 2.18557e-08L729.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M654.5 2.18557e-08L654.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M579.5 2.18557e-08L579.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M504.5 2.18557e-08L504.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M429.5 2.18557e-08L429.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M354.5 2.18557e-08L354.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M279.5 -2.18557e-08L279.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M204.5 -2.18557e-08L204.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M129.5 -2.18557e-08L129.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M54.5 -2.18557e-08L54.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M804.5 2.18557e-08L804.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M879.5 2.18557e-08L879.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M954.5 2.18557e-08L954.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M1029.5 2.18557e-08L1029.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M1104.5 2.18557e-08L1104.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M1179.5 2.18557e-08L1179.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M1254.5 2.18557e-08L1254.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M1329.5 2.18557e-08L1329.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M1404.5 2.18557e-08L1404.5 954" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 754.5L1453 754.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 823.5L1453 823.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 686.5L1453 686.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 618.5L1453 618.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 550.5L1453 550.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 482.5L1453 482.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 413.5L1453 413.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 345.5L1453 345.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 277.5L1453 277.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 209.5L1453 209.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 141.5L1453 141.5" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<path d="M5 73.5L1453 73.4999" stroke="#BBBBBB" stroke-opacity="0.2"/>
+<g opacity="0.3" filter="url(#filter0_f_2003_47)">
+<ellipse cx="1302" cy="517" rx="145" ry="437" fill="#3A78A1"/>
+</g>
+<g opacity="0.3" filter="url(#filter1_f_2003_47)">
+<ellipse cx="150" cy="517" rx="145" ry="437" fill="#3A78A1"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_2003_47" x="857" y="-220" width="890" height="1474" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_2003_47"/>
+</filter>
+<filter id="filter1_f_2003_47" x="-295" y="-220" width="890" height="1474" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_2003_47"/>
+</filter>
+<clipPath id="clip0_2003_47">
+<rect width="1457" height="954" fill="white"/>
+</clipPath>
+</defs>
+</svg>

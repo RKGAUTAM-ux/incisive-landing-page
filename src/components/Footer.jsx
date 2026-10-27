@@ -16,7 +16,7 @@ export default function Footer() {
 
       <a
         className="inline-flex items-center justify-center gap-[8px] rounded-full bg-[#3d83a8] px-[32px] py-[8px] mb-[60px] text-[24px] md:text-[32px] w-full md:w-[355px] text-white transition hover:-translate-y-0.5 hover:bg-[#286887]  [font-family:'Libre_Baskerville',Georgia,serif]"
-        href="mailto:hello@incisive.com?subject=Book%20a%20Demo"
+        href="https://joinincisive.com/contact"
       >
         Book a Demo <span>→</span>
       </a>
