@@ -1,18 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-sans: "Inter", sans-serif;
-}
-
-html { scroll-behavior: smooth; }
-body { min-width: 320px; margin: 0; font-family: "Inter", sans-serif; font-size: 14px; }
-a:focus-visible { outline: 3px solid #f4b544; outline-offset: 3px; }
-
-
-
-.comparison tbody td:first-child { min-width: 140px; color:#284357; font-family:'Libre Baskerville',Georgia,serif; font-weight:700; }
-@media (min-width:768px) {
-  .comparison tbody td:first-child { min-width:220px; }
 }

@@ -61,7 +61,7 @@ export default function Comparison() {
     <section className="py-[35px] md:py-[50px]">
 
        <div className="max-w-[1450px] mx-auto  px-[24px]">
-           <h2 className="text-[#112B40] mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal [font-family:'Libre_Baskerville',Georgia,serif]">
+           <h2 className="text-[#112B40] mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal font-[Georgia,'Times_New_Roman',serif]">
         What “No-Cost Equipment” Actually Means, and
         <br />
         What It Doesn't.
@@ -77,9 +77,9 @@ export default function Comparison() {
           <thead>
             <tr>
               <th className="min-w-[140px] border-b-[1.5px] border-r-[1.5px] border-[#112B40] p-2 text-left md:min-w-[220px]"></th>
-              <th className="min-w-[95px] border-b-[1.5px] border-r-[1.5px] border-[#112B40] p-2 text-left font-normal text-[#24455b] md:p-3.5 text-[14px] md:text-[24px] [font-family:'Libre_Baskerville',Georgia,serif]">Incisive</th>
-              <th className="min-w-[95px] border-b-[1.5px] border-r-[1.5px] border-[#112B40] p-2 text-left font-normal text-[#24455b] md:p-3.5 text-[14px] md:text-[24px] [font-family:'Libre_Baskerville',Georgia,serif]">Buying Outright</th>
-              <th className="min-w-[95px] border-b-[1.5px] border-r-[0] border-[#112B40] p-2 text-left font-normal text-[#24455b] md:p-3.5 text-[14px] md:text-[24px] [font-family:'Libre_Baskerville',Georgia,serif]">Dandy / Single-Lab Deal</th>
+              <th className="min-w-[95px] border-b-[1.5px] border-r-[1.5px] border-[#112B40] p-2 text-left font-normal text-[#24455b] md:p-3.5 text-[14px] md:text-[24px] font-[Georgia,'Times_New_Roman',serif]">Incisive</th>
+              <th className="min-w-[95px] border-b-[1.5px] border-r-[1.5px] border-[#112B40] p-2 text-left font-normal text-[#24455b] md:p-3.5 text-[14px] md:text-[24px] font-[Georgia,'Times_New_Roman',serif]">Buying Outright</th>
+              <th className="min-w-[95px] border-b-[1.5px] border-r-[0] border-[#112B40] p-2 text-left font-normal text-[#24455b] md:p-3.5 text-[14px] md:text-[24px] font-[Georgia,'Times_New_Roman',serif]">Dandy / Single-Lab Deal</th>
             </tr>
           </thead>
 
@@ -87,7 +87,7 @@ export default function Comparison() {
             {rows.map((row) => (
               <tr key={row[0]}>
                 {row.map((cell, i) => (
-                  <td className="text-[12px] md:text-[18px] border-b-[1.5px] border-r-[1.5px] border-[#112B40] p-2 text-[#3A4249] last:border-r-[0] md:p-3.5  first:[font-family:'Libre_Baskerville',Georgia,serif] first:text-[#112B40]" key={i}>{cell}</td>
+                  <td className="text-[12px] md:text-[18px] border-b-[1.5px] border-r-[1.5px] border-[#112B40] p-2 text-[#3A4249] last:border-r-[0] md:p-3.5  first:font-[Georgia,'Times_New_Roman',serif] first:text-[#112B40]" key={i}>{cell}</td>
                 ))}
               </tr>
             ))}

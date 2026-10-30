@@ -23,7 +23,7 @@ export default function Steps() {
     <section className="py-[35px] md:py-[50px] text-center">
 
       <div className="max-w-[1450px] mx-auto  px-[24px]">
-        <h2 className="max-w-[1080px] mx-auto text-[#112B40] mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal [font-family:'Libre_Baskerville',Georgia,serif]">
+        <h2 className="max-w-[1080px] mx-auto text-[#112B40] mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal font-[Georgia,'Times_New_Roman',serif]">
           From First Conversation to First Case. Here's Exactly
           How Incisive Works.
         </h2>
@@ -37,8 +37,8 @@ export default function Steps() {
         <div className="grid grid-cols-1 gap-[20px] text-left md:grid-cols-2 md:gap-[32px] lg:gap-x-[80px] lg:gap-y-[64px]">
           {steps.map(([h, t], i) => (
             <article className="rounded-[10px] md:rounded-[15px] bg-[#3A78A1] p-[24px] text-white  md:p-[32px]">
-              <span className="rounded-[10px] bg-[#F6FBFE] px-[14px] md:px-[20px] py-[4px] text-[24px] text-[#4080a4] md:text-[36px] [font-family:'Libre_Baskerville',Georgia,serif]">Step {i + 1}:</span>
-              <h3 className="mb-[16px] md:mb-[22px] mt-[16px] md:mt-[24px] text-[20px] font-normal md:text-[30px] leading-[1.3] [font-family:'Libre_Baskerville',Georgia,serif]">{h}</h3>
+              <span className="rounded-[10px] bg-[#F6FBFE] px-[14px] md:px-[20px] py-[4px] text-[24px] text-[#4080a4] md:text-[36px] font-[Georgia,'Times_New_Roman',serif]">Step {i + 1}:</span>
+              <h3 className="mb-[16px] md:mb-[22px] mt-[16px] md:mt-[24px] text-[20px] font-normal md:text-[30px] leading-[1.3] font-[Georgia,'Times_New_Roman',serif]">{h}</h3>
               <p className="text-[12px] leading-[1.3] text-[#e6f0f5] md:text-[20px]">{t}</p>
             </article>
           ))}

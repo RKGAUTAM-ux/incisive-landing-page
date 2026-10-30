@@ -26,7 +26,7 @@ export default function Metrics() {
         <div className="flex items-center gap-[8px]  md:gap-[16px]" key={n}>
 
           <div className="flex h-[50px] w-[50px]  md:h-[90px] md:w-[90px] justify-center items-center shrink-0 relative">
-<b className="text-[14px] md:text-[24px] [font-family:'Libre_Baskerville',Georgia,serif]">{n}</b>
+<b className="text-[14px] md:text-[24px] font-[Georgia,'Times_New_Roman',serif]">{n}</b>
 <img className="absolute top-0 left-0 h-full- w-full" src="/images/stat-round-bg.svg" alt="" />
           </div>
 

@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hidden sm:block relative max-w-[1480px] mx-auto min-h-[650px] overflow-hidden rounded-[16px] px-[32px] lg:px-[96px] pt-[40px] sm:rounded-[25px] bg-[url(/images/incisive-lp-hero-bg.svg)] bg-center
 ">
         <div className="mx-auto text-center">
-          <h1 className="max-w-[1000px] mx-auto mb-[24px] text-[32px] md:text-[56px] leading-tight font-normal text-[#112B40] md:leading-[1.25] [font-family:'Libre_Baskerville',Georgia,serif]">
+          <h1 className="max-w-[1000px] mx-auto mb-[24px] text-[32px] md:text-[56px] leading-tight font-normal text-[#112B40] md:leading-[1.25] font-[Georgia,'Times_New_Roman',serif]">
             One Platform. 7+ Vetted Labs. No Equipment Cost. No Lab Chaos.
           </h1>
 
@@ -23,7 +23,7 @@ export default function Hero() {
             focusing on patients.
           </p>
 
-          <a className="inline-flex items-center justify-center gap-[8px] rounded-full bg-[#3d83a8] px-[32px] py-[8px] mb-[20px] text-[24px] md:text-[32px] w-full md:w-[355px] text-white transition hover:-translate-y-0.5 hover:bg-[#286887]  [font-family:'Libre_Baskerville',Georgia,serif]" href="https://joinincisive.com/contact">
+          <a className="inline-flex items-center justify-center gap-[8px] rounded-full bg-[#3d83a8] px-[32px] py-[8px] mb-[20px] text-[24px] md:text-[32px] w-full md:w-[355px] text-white transition hover:-translate-y-0.5 hover:bg-[#286887]  font-[Georgia,'Times_New_Roman',serif]" href="https://joinincisive.com/contact">
             Book a Demo <span>→</span>
           </a>
 

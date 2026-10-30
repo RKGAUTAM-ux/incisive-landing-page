@@ -37,7 +37,7 @@ export default function Benefits() {
     <section className="py-[35px] md:py-[50px] text-center">
       <div className="max-w-[1450px] mx-auto  px-[24px]">
 
-        <h2 className="text-[#112B40] max-w-[960px] mx-auto text-[#112B40] mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal [font-family:'Libre_Baskerville',Georgia,serif]">
+        <h2 className="text-[#112B40] max-w-[960px] mx-auto text-[#112B40] mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal font-[Georgia,'Times_New_Roman',serif]">
           7+ Labs. Every Case Type. Every One Accepted for a Reason.
         </h2>
 

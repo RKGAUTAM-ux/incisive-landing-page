@@ -12,7 +12,7 @@ export default function Problem() {
   return (
     <section className="bg-[#112B40]  py-[48px] md:py-[72px] text-center text-[#ffffff]">
       <div className="max-w-[1450px] mx-auto  px-[24px]">
-       <h2 className="max-w-[950px] mx-auto text-white mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal [font-family:'Libre_Baskerville',Georgia,serif]">
+       <h2 className="max-w-[950px] mx-auto text-white mb-[18px] md:mb-[24px] text-[26px] md:text-[40px] leading-[1.3] font-normal font-[Georgia,'Times_New_Roman',serif]">
         Your Lab Relationships Were Built Over Years. Consolidation Erased Them in Months.
       </h2>
 
